@@ -10,6 +10,7 @@ import Seedlings from "./pages/Seedlings";
 import Plans from "./pages/Plans";
 import Plots from "./pages/Plots";
 import Monitoring from "./pages/Monitoring";
+import Assignments from "./pages/Assignments";
 import Reports from "./pages/Reports";
 import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
@@ -30,6 +31,7 @@ const App = () => (
             <Route path="/plans" element={<Plans />} />
             <Route path="/plots" element={<Plots />} />
             <Route path="/monitoring" element={<Monitoring />} />
+            <Route path="/assignments" element={<Assignments />} />
             <Route path="/reports" element={<Reports />} />
             <Route path="/settings" element={<Settings />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

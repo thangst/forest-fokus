@@ -9,7 +9,8 @@ import {
   TrendingUp,
   FileText,
   LayoutDashboard,
-  Settings
+  Settings,
+  ClipboardList
 } from "lucide-react";
 
 interface LayoutProps {
@@ -23,6 +24,7 @@ const navigation = [
   { name: "Kế hoạch trồng", href: "/plans", icon: Calendar },
   { name: "Quản lý lô/khoảnh", href: "/plots", icon: MapPin },
   { name: "Theo dõi sinh trưởng", href: "/monitoring", icon: TrendingUp },
+  { name: "Phân công điều tra", href: "/assignments", icon: ClipboardList },
   { name: "Báo cáo", href: "/reports", icon: FileText },
 ];
 
